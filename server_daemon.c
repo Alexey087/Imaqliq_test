@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 
 void StartWork(const int port)
 {   
-    char file_save_dir[MAXPATH] = "";
+    char file_save_dir[MAXPATH] = "/tmp/";
     
     g_size_mes = sizeof(g_mes);
        
